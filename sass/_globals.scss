@@ -1,0 +1,31 @@
+$primary-color: #ffb7a1;
+$light-blue: #c2d7d0;
+$secondary-color: #efbc68;
+$dark-blue: #5f9595;
+$text: #3e4444;
+$text-light: #c1c4c4;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $light-blue;
+  color: $text;
+  line-height: 1.2;
+  font-family: "Acme", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+li {
+  list-style-type: none;
+}
